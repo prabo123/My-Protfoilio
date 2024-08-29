@@ -1,0 +1,49 @@
+/* src/pages/Services.css */
+.services-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.service-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+    color: #666;
+}
