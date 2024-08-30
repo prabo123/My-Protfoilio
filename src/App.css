@@ -67,3 +67,44 @@
 .nav-item a:hover {
   text-decoration: underline;
 }
+.footer {
+  background-color: #7c3aed;
+  padding: 30px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand p {
+  margin-top: 10px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-top: 20px;
+  text-align: center;
+}
